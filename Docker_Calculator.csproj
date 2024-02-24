@@ -6,7 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
-    </PropertyGroup>
+      <UserSecretsId>321466fd-ca7e-4fa8-b9f1-e405ea2c4585</UserSecretsId>
+  </PropertyGroup>
 
     <ItemGroup>
       <Content Include="..\.dockerignore">
