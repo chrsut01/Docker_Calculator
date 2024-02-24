@@ -15,7 +15,7 @@ public class CalculatorDbContext : DbContext
     }
 
     public virtual DbSet<DataLog> DataLogs { get; set; }
-
+/*
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if (!optionsBuilder.IsConfigured)
@@ -31,5 +31,5 @@ public class CalculatorDbContext : DbContext
         
             optionsBuilder.UseSqlServer(connectionString);
         }
-    }
+    }*/
 }

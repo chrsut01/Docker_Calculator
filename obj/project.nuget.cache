@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7AlMlH5iAskGL5XVlZcGYL0s86ylIsR/Ja9iRuUApAYzmMoYgHdZW/Pik5SQUJiLtzYT9kTGSSVu5C3Y05U+xA==",
+  "dgSpecHash": "tip28tgGw3KsEg7hVsqm8slhl9D5NSXCISYTQHNQHxISNwH/FM18OygAwyS8COl/TxMmuq5LEczuSNVqGg1ncQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\chris\\RiderProjects\\Docker_Calculator\\Docker_Calculator\\Docker_Calculator.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-preview.1.24080.9\\microsoft.extensions.configuration.abstractions.9.0.0-preview.1.24080.9.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.0\\microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.0\\microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.configuration.usersecrets\\8.0.0\\microsoft.extensions.configuration.usersecrets.8.0.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",

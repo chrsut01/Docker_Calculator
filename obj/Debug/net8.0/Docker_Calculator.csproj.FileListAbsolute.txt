@@ -135,3 +135,5 @@ C:\Users\chris\RiderProjects\Docker_Calculator\Docker_Calculator\obj\Debug\net8.
 C:\Users\chris\RiderProjects\Docker_Calculator\Docker_Calculator\obj\Debug\net8.0\Docker_Calculator.genruntimeconfig.cache
 C:\Users\chris\RiderProjects\Docker_Calculator\Docker_Calculator\obj\Debug\net8.0\ref\Docker_Calculator.dll
 C:\Users\chris\RiderProjects\Docker_Calculator\Docker_Calculator\bin\Debug\net8.0\appsettings.json
+C:\Users\chris\RiderProjects\Docker_Calculator\Docker_Calculator\obj\Debug\net8.0\Docker_Calculator.sourcelink.json
+C:\Users\chris\RiderProjects\Docker_Calculator\Docker_Calculator\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
