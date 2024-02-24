@@ -163,3 +163,5 @@ C:\Users\chris\RiderProjects\Docker_Calculator\Tests\obj\Debug\net8.0\Tests.pdb
 C:\Users\chris\RiderProjects\Docker_Calculator\Tests\obj\Debug\net8.0\Tests.genruntimeconfig.cache
 C:\Users\chris\RiderProjects\Docker_Calculator\Tests\obj\Debug\net8.0\ref\Tests.dll
 C:\Users\chris\RiderProjects\Docker_Calculator\Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\chris\RiderProjects\Docker_Calculator\Tests\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\chris\RiderProjects\Docker_Calculator\Tests\obj\Debug\net8.0\Tests.sourcelink.json
