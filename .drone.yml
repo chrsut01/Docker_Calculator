@@ -14,6 +14,6 @@ steps:
   - dotnet sonarscanner end /d:sonar.token="$SONARSECRET"
 
 - name: test
-  image: mcr.microsoft.com/dotnet/sdk:8.0
+  image: boulundeasv/dotnet-sdk-with-java
   commands:
   - dotnet test
