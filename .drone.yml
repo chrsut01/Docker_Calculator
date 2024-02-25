@@ -1,20 +1,14 @@
 kind: pipeline
 type: docker
-name: default
+name: integration
 
 steps:
-- name: code-analysis
+- name: build
   image: boulundeasv/dotnet-sdk-with-java
-  environment:
-    SONARSECRET:
-      from_secret: TokenSecret
   commands:
-  - dotnet sonarscanner begin /k:"easv-devops_Docker_Calculator_AY3bFqz6EVvRW2O60EGm" /d:sonar.host.url="http://sonar.setgo.dk:9000" /d:sonar.token="$SONARSECRET" /d:sonar.vscoveragexml.reportsPaths=coverage.xml /d:sonar.qualitygate.wait=true
-  - dotnet build --no-incremental
-  - dotnet-coverage collect "dotnet test" -f xml -o "coverage.xml"
-  - dotnet sonarscanner end /d:sonar.token="$SONARSECRET"
+  - dotnet build
 
 - name: test
-  image: mcr.microsoft.com/dotnet/sdk:8.0
+  image: boulundeasv/dotnet-sdk-with-java
   commands:
   - dotnet test
