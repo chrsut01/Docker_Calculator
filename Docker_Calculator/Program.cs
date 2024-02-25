@@ -27,10 +27,10 @@ class Program
       //  var calculator = new Calculator(dbContext);
 
         // Example usage
-        var result = calculator.Subtract(21, 3);
+        var result = calculator.Subtract(41, 5);
         Console.WriteLine($"Subtract Result: {result}");
 
-        var result2 = calculator.Divide(21, 3);
+        var result2 = calculator.Divide(41, 5);
         Console.WriteLine($"Divide Result: {result2}");
     }
 }
