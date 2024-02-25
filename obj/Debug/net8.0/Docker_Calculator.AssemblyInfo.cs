@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Docker_Calculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5acbbdbfcb136fbbcd7b101867a5420b42f6b27f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+186dd90f662db05dc3e45ed051f1439177b86e5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Docker_Calculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Docker_Calculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
