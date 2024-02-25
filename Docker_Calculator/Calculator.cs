@@ -10,29 +10,29 @@ public class Calculator : ICalculator
     {
         _dbContext = dbContext;
     }
-    public double Add(double a, double b)
+    public double Add(double n1, double n2)
     {
-        LogCalculation(a, b, "Add", a + b);
-        return a + b;
+        LogCalculation(n1, n2, "Add", n1 + n2);
+        return n1 + n2;
     }
 
-    public double Subtract(double a, double b)
+    public double Subtract(double n1, double n2)
     {
-        LogCalculation(a, b, "Subtract", a - b);
-        return a - b;
+        LogCalculation(n1, n2, "Subtract", n1 - n2);
+        return n1 - n2;
     }
 
-    public double Multiply(double a, double b)
+    public double Multiply(double n1, double n2)
     {
-        LogCalculation(a, b, "Multiply", a * b);
-        return a * b;   
+        LogCalculation(n1, n2, "Multiply", n1 * n2);
+        return n1 * n2;   
     }
 
-    public double Divide(double a, double b)
+    public double Divide(double n1, double n2)
     {
-        if (b != 0){
-            LogCalculation(a, b, "Divide", a / b);
-            return a / b;
+        if (n2 != 0){
+            LogCalculation(n1, n2, "Divide", n1 / n2);
+            return n1 / n2;
         }
         else{
             throw new DivideByZeroException("Cannot divide by zero.");;
