@@ -2,7 +2,7 @@ version: '3'
 
 services:
   calculator-app:
-    image: mycalculator:2.0
+    image: dock-calc:1.0
     build:
       context: .
       dockerfile: Dockerfile
